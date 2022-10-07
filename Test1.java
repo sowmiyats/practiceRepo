@@ -7,5 +7,10 @@ public class Test1 {
         int i = 0;
 	    System.out.println("printing i = "+i);
         System.out.println("want to delete DS_Store");
+        printMore();
+    }
+    public static void printMore()
+    {
+        System.out.println("starting to explore branches");
     }
 }
