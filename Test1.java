@@ -8,6 +8,7 @@ public class Test1 {
 	    System.out.println("printing i = "+i);
         System.out.println("want to delete DS_Store");
         printMore();
+        System.out.println("merging the feature branch in main ");
     }
     public static void printMore()
     {
