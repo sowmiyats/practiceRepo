@@ -4,6 +4,6 @@ public class Test1 {
     {
         System.out.println("Hello World");
         int i = 0;
-
+	    System.out.println("printing i = "+i);
     }
 }
