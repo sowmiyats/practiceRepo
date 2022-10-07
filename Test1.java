@@ -8,9 +8,14 @@ public class Test1 {
 	    System.out.println("printing i = "+i);
         System.out.println("want to delete DS_Store");
         printMore();
+        printContent("explore branch again");
     }
     public static void printMore()
     {
         System.out.println("starting to explore branches");
+    }
+    public static void printContent(String s)
+    {
+        System.out.println(("Got thhis to print  - " + s));
     }
 }
