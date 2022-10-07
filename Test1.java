@@ -5,6 +5,12 @@ public class Test1 {
         // testing git diff
         System.out.println("Hello World");
         int i = 0;
+        String[] strArray =new String[]{"abc","def","hij"};
+        
+        for (String str : strArray) {
+            System.out.println("String " + i + "=" + str);
+            i++;
+        }
 	    System.out.println("printing i = "+i);
         System.out.println("want to delete DS_Store");
         printMore();
